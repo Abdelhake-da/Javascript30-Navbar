@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>code well 1</title>
+    <link rel="stylesheet" href="styel.css">
+</head>
+<body>
+    <section class="nav-bar box">
+        <div class="logo">
+            <img src="Assets/Logo.svg" alt="">
+        </div>
+        <div class="links">
+            <ul>
+                <div class="dropdown">
+                    <li onclick="show()"><a class='pointer dropbtn'>products</a></li>
+                    <div id="myDropdown" class="dropdown-content hide">
+                        <img src="./Assets/Spense_Icon.svg" class="icon">
+                        <p class="title-hide-part">Spense</p>
+                        <p>Spense is a landing page for writers. Great for practising absolute positioning and flex layouts.
+                        </p>
+                        <img src="./Assets/Fiber_Icon.svg" class="icon">
+                        <p class="title-hide-part">Fiber Landing Page</p>
+                        <p>An online portfolio generator. Great to practise flex/grid layouts, and absolute positioning.</p>
+                        <img src="./Assets/Gradie_Icon.svg" class="icon">
+                        <p class="title-hide-part">Gradie Sign Up Page</p>
+                        <p>Gradie is a simple sign up page, great to practise centering layouts.</p>
+                    </div>
+                </div>
+                
+                <li><a class='pointer' href="#">challenges</a></li>
+                <li><a class='pointer' href="#">resources</a></li>
+                <li><a class='pointer' href="#">other links</a></li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <div class="sign-in pointer">
+                sign in
+            </div>
+            <div class="try-free pointer btn-try-free">
+                try for free
+            </div>
+        </div>
+        <div class="three-lines">
+            <img class="lines" onclick="show_side()" src="Assets/Menu.svg" alt="">
+            <div id="myDropdown1" class="dropdown-content1 hide">
+                <img src="./Assets/Spense_Icon.svg" class="icon">
+                <p class="title-hide-part">Spense</p>
+                <p>Spense is a landing page for writers. Great for practising absolute positioning and flex layouts.
+                </p>
+                <img src="./Assets/Fiber_Icon.svg" class="icon">
+                <p class="title-hide-part">Fiber Landing Page</p>
+                <p>An online portfolio generator. Great to practise flex/grid layouts, and absolute positioning.</p>
+                <img src="./Assets/Gradie_Icon.svg" class="icon">
+                <p class="title-hide-part">Gradie Sign Up Page</p>
+                <p>Gradie is a simple sign up page, great to practise centering layouts.</p>
+            </div>
+            <div id="side-bar-list" class="side-list hide">
+                <ul>
+                    <li  onclick="show1()"><a class='pointer dropbtn-s'>products</a></li>
+                    <li><a class='pointer' href="#">challenges</a></li>
+                    <li><a class='pointer' href="#">resources</a></li>
+                    <li><a class='pointer' href="#">other links</a></li>
+                    <li><a class='pointer' href="#">sign in</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </section>
+    <section class="content-page box">
+        <div class="text-part">
+            <h1 class="left-side">ondeck is your remote <span class="yellow-text">conference calling tool</span></h1>
+            <p class="par left-side">ondeck is a service that allows you to create beautiful, online, and encrypted video calls for you and your remote team.</p>
+            <div class="try-free pointer btn-try-free">
+                try for free
+            </div>
+            <div class="riting">
+                <p class="par left-side">5.0 rating based on reviews from:</p>
+                <img src="Assets/AlternativeTo Logo.svg" alt="">
+                <img src="Assets/Capterra Logo.svg" alt="">
+            </div>
+            
+        </div>
+        <div class="image-part">
+            <img src="Assets/Hero Image.png" alt="">
+        </div>
+    </section>
+    <section class="footer box">
+        <p class="par">Trusted by 3+ million people at companies like.</p>
+        <div class="companies">
+            <div class="col2">
+                <img src="Assets/Netflix Logo.svg" alt="">
+            </div>
+            <div class="col2">
+                <img src="Assets/Shopify Logo.svg" alt="">
+            </div>
+            <div class="col2">
+                <img src="Assets/Spotify Logo.svg" alt="">
+            </div>
+            <div class="col2">
+                <img src="Assets/Walmart Logo.svg" alt="">
+            </div>
+            
+            
+            
+            
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
